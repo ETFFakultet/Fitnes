@@ -3,10 +3,10 @@
 	
 	session_start();
 	
-	//if(isset($_SESSION['user_id']))
-	//{
-	//	header("Location: http://localhost/Fitnes/index.php");
-	//}
+	if(isset($_SESSION['user_id']))
+	{
+		header("Location: http://localhost/Fitnes/index.php");
+	}
 
 	require 'konekcija.php';
 	$message = '';

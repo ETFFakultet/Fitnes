@@ -37,8 +37,7 @@
 	  	
 	  	<div class="jumbotron">
 	   	 <div class="naslov"><h1 class="animated tada"><?php echo $naslovAPP; ?></h1>
-	      Prijava:<a href="prijava.php"><img src="images/prijava.png" class="doorlist"/></a>
-	      Registracija:<a href="registracija.php"><img src="images/registracija.png" class="doorlist1"/></a>
+	      
 	     </div>
 	     <div align="center">
 	      	<p>Prijavljen: <?= $user['email']; ?></p>
