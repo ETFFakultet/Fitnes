@@ -1,0 +1,150 @@
+	body {
+		padding-top: 60px;
+		background-color: #F5F3EE;
+	}
+
+	hr {
+		width: 45%;
+	}
+
+	.lead {
+		text-align:justify;
+	}
+	
+	.headerline {
+		border: 1px solid #e5e5e5;
+		margin-top: 1em;
+	}
+
+	.navbar-header {
+		font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+	}
+
+	.footer {
+		background-color: #222;
+		color: white;
+		height: 70px;
+		width: 100%;
+		text-align: center;
+	}
+	
+	.doorlist {
+		height: 35px;
+		width: 35px;
+	}	
+	
+	.doorlist1 {
+		height: 35px;
+		width: 45px;
+	}	
+	
+	.jumbotron { 
+		padding-bottom: 1em;
+		text-align: center;
+		background-image: url("http://science-all.com/images/wallpapers/hd-website-backgrounds/hd-website-backgrounds-3.png");
+		background-size: cover;
+		height: 100%;
+		color: #ff689e;
+		font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+	}
+	
+	.naslov {
+		margin-bottom: 22px;
+	}
+	
+	.mapa {
+		width: 100%;
+	}
+
+	th {
+    background-color: #4CAF50;
+    color: white;
+	}
+	
+	td {
+		background-color: white;
+	}
+
+	.dio_tablice {
+		background-color: #222;
+		color: #ff689e;
+	}
+	
+	input[type="text"], input[type="password"], input[type="email"]  {
+		outline: none;
+		padding: 10px;
+		display: block;
+		width: 300px;
+		border-radius: 5px;
+		border: 1px solid #eee;
+		margin: 20px auto;
+	}
+	
+	input[type="submit"] {
+		padding: 10px;
+		display: block;
+		color: #fff;
+		background: #0098cb;
+		width: 300px;
+		margin: 20px auto;
+		margin-top: 0px;
+		border: 0px;
+		border-radius: 5px;
+		cursor: pointer;
+	}
+	
+	input[type="submit"]:hover {
+		background: #00b8eb;
+	}
+	
+	.poravnavanje {
+		text-align: center;
+	}
+	
+	textarea {
+		display: block;
+		border-radius: 3px;
+		border: 1px solid #eee;
+		margin: 20px auto;
+		width: 300px;
+	  }
+	
+	.forma {
+		display: inline-block;
+		background-color: #233;
+		border: 1px solid #eee;
+		border-radius: 22px;
+		width: 350px;
+	}
+	
+	.kontakt {
+		text-align: center;
+	}
+	
+	.odjava 
+	{
+		color: #ff689e;
+	}
+	
+	.odjava:hover{
+		text-decoration: none;
+		color: #fff;
+	}
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
