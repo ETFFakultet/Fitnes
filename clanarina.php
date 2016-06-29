@@ -10,6 +10,7 @@
 
   <div class="container">
   	<h2>Članarina u XL fitnes centrima:</h2>
+  	<div style="overflow-x:auto;">
   	 <table class="table table-bordered">
             <thead>
               <tr>
@@ -117,6 +118,7 @@
               </tr>
             </tbody>
           </table>
+  	</div>
   </div>
     
    <?php include_once 'predlozak/podnozje.php'; ?>
