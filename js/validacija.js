@@ -17,12 +17,6 @@
 			return false;
 			}
 			
-			var x = document.forms["myForm"]["tekst"].value;
-			if (x == null || x == "") {
-			alert("Morate napisati pitanje, jer bez pitanja, kontakt dio nema smisla. :)");
-			return false;
-			}
-			
 			var x = document.forms["myForm"]["email"].value;
 			var atpos = x.indexOf("@");
 			var dotpos = x.lastIndexOf(".");
@@ -30,4 +24,12 @@
 				alert("Nije valjana e-mail adresa");
 				return false;
 			}
+			
+			var x = document.forms["myForm"]["tekst"].value;
+			if (x == null || x == "") {
+			alert("Morate napisati pitanje, jer bez pitanja, kontakt dio nema smisla. :)");
+			return false;
+			}
+			
+			
 		}
