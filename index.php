@@ -41,13 +41,18 @@
 	     </div>
 	     <div align="center">
 			 <?php if($_SESSION['user_id'] == 1):  ?>
-				 Admin
+				 Admin:
 			 <?php else:	?>
 	      	<p>Prijavljen: <?= $user['email']; ?></p>
 			 <?php endif;	?>
+			 
 	      	<?php if($_SESSION['user_id'] == 1):  ?>
 			<a href="clanovi.php" class="odjava">Prikazi clanove</a><br />
+			<?php else:	?>
+				<a href="korisnici.php" class="odjava">Prikazi clanove</a><br />
+			
 		<?php endif;	?>
+			
 	  		<a href="odjava.php" class="odjava">Odjava</a>
 	  	 </div>
 	    </div>

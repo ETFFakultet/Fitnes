@@ -10,7 +10,7 @@
 
   <div class="container">
   	<h2>Članarina u XL fitnes centrima:</h2>
-  	<div style="overflow-x:auto;">
+  	<div class="table-responsive">
   	 <table class="table table-bordered">
             <thead>
               <tr>

@@ -51,9 +51,11 @@
   	<div class="poravnavanje">ili se <a href="registracija.php">registrirajte ovdje</a>.</div>
   	
 	<form action="prijava.php" method="post">
-		<input type="email"  placeholder="Upišite vaš email!" name="email"/>
-		<input type="password" placeholder="Upišite password." name="password" />
-		<input type="submit" value="Prijava" name="prijava">
+		<fieldset>
+			<label for="email" class="lemail">Email:</label><input id="email" type="email"  placeholder="Upišite vaš email!" name="email"/> 
+			<label for="password" class="lpassword">Password:</label><input id="password" type="password" placeholder="Upišite password." name="password" />
+			<input type="submit" value="Prijava" name="prijava">
+		</fieldset>
 	</form>
 	
   </div>

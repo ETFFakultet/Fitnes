@@ -131,11 +131,35 @@
 		color: #fff;
 	}
 	
+	.lpassword {
+		text-align: center;
+		width: 915px;
+	}
 	
+	.lemail{
+		text-align: center;
+		width: 885px;
+	}
 	
+	.lime{
+		text-align: center;
+		width: 870px;
+	}
 	
+	.lprezime{
+		text-align: center;
+		width: 900px;
+	}
 	
+	.lkorisnik{
+		text-align: center;
+		width: 950px;
+	}
 	
+	.lpotvrda{
+		text-align: center;
+		width: 980px;
+	}
 	
 	
 	

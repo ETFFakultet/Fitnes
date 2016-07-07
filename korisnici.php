@@ -20,7 +20,6 @@ $i = 0;
             <th>#</th>
             <th>Ime</th>
             <th>ID</th>
-            <th>Obriši</th>
         </tr>
         </thead>
         <tbody>
@@ -29,15 +28,12 @@ $i = 0;
             <th scope="row"><?php echo $i ; ?></th>
             <td><?php echo $user['ime'] ?></td>
             <td><?php echo $user['id'] ?></td>
-           <td> <a href="obrisi.php?user_id=<?php echo $user['id'] ?>">Obriši</a> </td>
 
         </tr>
         <?php $i++; endforeach; ?>
 
         </tbody>
     </table>
-    <a href="http://localhost/phpmyadmin/sql.php?server=1&db=fitnes&table=clan&pos=0&token=ef000f861e453d33b58558de76d23aca">Uvid i moguca izmjena baze</a>
-    <br />
     <a href="http://localhost/Fitnes/index.php""> Pocetna </a>
 </body>
 </html>

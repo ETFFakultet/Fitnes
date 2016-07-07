@@ -51,13 +51,15 @@
   	<h2 class="poravnavanje">Registrirajte se:</h2>
   	<div class="poravnavanje">ili se <a href="prijava.php">prijavite ovdje</a>.</div>
 	<form action="registracija.php" method="post">
-		<input type="text"  placeholder="Upišite vaše ime!" name="ime"/>
-		<input type="text"  placeholder="Upišite vaše prezime!" name="prezime"/>
-		<input type="email"  placeholder="Upišite vaš email!" name="email"/>
-		<input type="text"  placeholder="Upišite korisničko ime!" name="korisnicko_ime"/>
-		<input type="password" placeholder="Upišite password." name="password" />
-		<input type="password" placeholder="Potvrdite password." name="potvrda_passworda" />
-		<input type="submit" name="registracija">
+		<fieldset>
+			<label for="ime" class="lime">Ime:</label><input id="ime" type="text" placeholder="Upišite vaše ime!" name="ime"/>
+			<label for="prezime" class="lprezime">Prezime:</label><input id="prezime" type="text" placeholder="Upišite vaše prezime!" name="prezime"/>
+			<label for="email" class="lemail">Email:</label><input id="email" type="email" placeholder="Upišite vaš email!" name="email"/>
+			<label for="korisnicko_ime" class="lkorisnik">Korisnicko ime:</label><input id="korisnicko_ime" type="text" placeholder="Upišite korisničko ime!" name="korisnicko_ime"/>
+			<label for="password" class="lpassword">Password:</label><input id="password" type="password" placeholder="Upišite password." name="password" />
+			<label for="potvrda_passworda" class="lpotvrda">Potvrdite password:</label><input id="potvrda_passworda" type="password" placeholder="Potvrdite password." name="potvrda_passworda" />
+			<input type="submit" name="registracija">
+		</fieldset>
 	</form>
   </div>
     

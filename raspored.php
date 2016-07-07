@@ -10,7 +10,7 @@
 
   <div class="container">
   	<h2>Raspored za 20.06. - 26.06.2016.</h2>
-  	<div style="overflow-x:auto;">
+  	<div class="table-responsive">
   	 <table class="table table-bordered">
             <thead>
               <tr>
