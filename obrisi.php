@@ -2,9 +2,10 @@
 	require 'konekcija.php';
 	$user_id = $_GET['user_id'];
 
-	function removeItem($id,$conn)
+	function removeItem($id, $conn)
 	{
-		//global $conn;
+		global $conn;
+		
 		try {
 
 			$stmt = $conn->prepare("DELETE FROM clan WHERE id = :user_id ");
@@ -19,6 +20,6 @@
 
 	$removeStatus = removeItem($user_id);
 	if($removeStatus){
-		header("location:clanovi.php");
+		header("location: clanovi.php");
 		exit;
 	}

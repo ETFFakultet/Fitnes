@@ -5,7 +5,7 @@
 	
 	if(isset($_SESSION['user_id']))
 	{
-		header("Location: http://localhost/Fitnes/index.php");
+		header("Location: index.php");
 	}
 
 	require 'konekcija.php';
@@ -24,7 +24,7 @@
 		
 		if( $stmt->execute() ):
 			$message = 'Successfully created new user';
-			header("Location: http://localhost/Fitnes/prijava.php");
+			header("Location: prijava.php");
 		else:
 			$message = 'Sorry there must have been an issue creating your account';
 		endif;

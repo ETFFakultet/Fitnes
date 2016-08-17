@@ -41,7 +41,7 @@
 	.jumbotron { 
 		padding-bottom: 1em;
 		text-align: center;
-		background-image: url("http://science-all.com/images/wallpapers/hd-website-backgrounds/hd-website-backgrounds-3.png");
+		background-image: url("../images/pozadina2.jpg");
 		background-size: cover;
 		height: 100%;
 		color: #ff689e;
@@ -161,9 +161,22 @@
 		width: 980px;
 	}
 	
+	.pocetna 
+	{
+		color: #ff689e;
+	}
 	
+	.pocetna:hover{
+		text-decoration: none;
+		color: #fff;
+	}
 	
-	
+	.prikaz{
+		background-size: cover;
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+	}
 	
 	
 	

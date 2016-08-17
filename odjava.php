@@ -6,6 +6,6 @@
 	
 	session_destroy();
 	
-	header("Location: http://localhost/Fitnes/index.php");
+	header("Location: index.php");
 	
 ?>
